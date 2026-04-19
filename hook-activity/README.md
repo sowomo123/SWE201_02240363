@@ -1,3 +1,8 @@
+### Github Link
+https://github.com/sowomo123/SWE201_02240363.git
+
+
+
 # Reactive Task Board
 
 A modern React task management application demonstrating various React hooks and patterns.
@@ -31,11 +36,18 @@ This project is a comprehensive demonstration of React hooks including:
 - **Performance Optimization**: Balancing re-renders and state updates to maintain smooth user experience
 - **Responsive Design**: Adapting the modern UI layout to work seamlessly across different screen sizes
 
+## Images
+
+### Light Mode Preview
+![Light Mode](./public/images/lightmode.png)
+The application in light mode featuring a clean gray background with black text, modern card-based layout, and blue accent colors.
+
+### Dark Mode Preview  
+![Dark Mode](./public/images/darkmode.png)
+Dark mode interface with dark gray background, maintaining the modern card design and ensuring good contrast for readability.
+
 ## Technologies Used
 
 - React with functional components and hooks
 - Modern CSS-in-JS styling
 - Component-based architecture
-
-### Github Link
-https://github.com/sowomo123/SWE201_02240363.git
