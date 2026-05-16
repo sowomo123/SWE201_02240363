@@ -30,7 +30,8 @@
             "backgroundColor": "#1f2937"
           }
         }
-      ]
+      ],
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,

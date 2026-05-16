@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Practical 2: Responsive React Native App (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 1. Aim
+To design and build a responsive mobile application using React Native and Expo, with adaptive layouts for different screen sizes.
 
-## Get started
+## 2. Objective
+- Build a multi-screen app using stack navigation.
+- Implement responsive UI behavior using screen dimensions.
+- Organize screens and styles in a clean project structure.
+- Test app behavior on different device sizes and orientations.
 
-1. Install dependencies
+## 3. Learning Outcome
+After completing this practical, I was able to:
+- Create and manage multiple screens in a React Native app.
+- Use responsive design techniques in mobile UI.
+- Apply reusable styling and card-based layouts.
+- Handle navigation updates when screens are added or removed.
+- Debug common Expo bundling and routing issues.
 
-   ```bash
-   npm install
-   ```
+## 4. Requirements
+- Node.js and npm installed
+- Expo CLI environment
+- React Native dependencies from package.json
+- Code editor (VS Code)
+- Android Emulator, iOS Simulator, or physical device with Expo Go
 
-2. Start the app
+## 5. Procedure
+1. Created a new Expo project and configured folder structure.
+2. Implemented stack navigation in [App.js](App.js).
+3. Built screens:
+	 - [screens/HomeScreen.js](screens/HomeScreen.js)
+	 - [screens/DashboardScreen.js](screens/DashboardScreen.js)
+	 - [screens/ProfileScreen.js](screens/ProfileScreen.js)
+4. Added responsive behavior using useWindowDimensions and conditional styles.
+5. Updated Dashboard cards to a fixed 2x2 layout and white card background.
+6. Added profile avatar image from [public/images/profile.jpeg](public/images/profile.jpeg).
+7. Removed Details screen references to fix bundling and route errors.
+8. Tested navigation and UI behavior on different device sizes.
 
-   ```bash
-   npx expo start
-   ```
+## 6. Program / Code Repository
+- Online repository:
+	[https://github.com/sowomo123/SWE201_02240363.git](https://github.com/sowomo123/SWE201_02240363.git)
+- Practical app folder:
+	[Practical2App](.)
 
-In the output, you'll find options to open the app in a
+## 7. Output (Images)
+Sample project images currently in the app:
+- Background image: [public/images/background.jpeg](public/images/background.jpeg)
+- Profile image: [public/images/profile.jpeg](public/images/profile.jpeg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+For report submission, include screenshots of:
+- Home screen on phone size
+- Dashboard screen showing 2 rows x 2 columns cards
+- Profile screen with avatar image
+- Landscape orientation (if possible)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 8. Observation
+- Responsive layout techniques improved readability across device sizes.
+- Card-based UI provided a clear and consistent structure.
+- Removing unused routes helped prevent runtime and bundling issues.
+- Using local image assets made UI customization simple and reliable.
 
-## Get a fresh project
+## 9. Problems Encountered
+- Bundling failure caused by import of missing screen file.
+- Navigation errors when route names did not match available screens.
+- Layout inconsistencies before fixing card sizing and wrapping.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 10. Conclusion
+This practical successfully demonstrated how to build a responsive multi-screen mobile application using React Native and Expo. The final app uses clean navigation, adaptive layouts, and local image assets, while handling common development issues such as missing imports and invalid routes.
