@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Pro 15",
+      "description": "High-performance laptop with 16GB RAM and 512GB SSD",
+      "sku": "LAP-001",
+      "price": 1299.99,
+      "stock": 25,
+      "supplierId": "1",
+      "category": "Electronics",
+      "minStock": 5,
+      "createdAt": "2024-01-15T10:00:00.000Z",
+      "updatedAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with USB receiver",
+      "sku": "MOU-001",
+      "price": 29.99,
+      "stock": 100,
+      "supplierId": "2",
+      "category": "Accessories",
+      "minStock": 20,
+      "createdAt": "2024-01-16T10:00:00.000Z",
+      "updatedAt": "2024-01-16T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "USB-C Hub",
+      "description": "7-in-1 USB-C hub with HDMI, USB 3.0, and SD card reader",
+      "sku": "HUB-001",
+      "price": 49.99,
+      "stock": 8,
+      "supplierId": "1",
+      "category": "Accessories",
+      "minStock": 10,
+      "createdAt": "2024-01-17T10:00:00.000Z",
+      "updatedAt": "2024-01-17T10:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with blue switches",
+      "sku": "KEY-001",
+      "price": 89.99,
+      "stock": 15,
+      "supplierId": "2",
+      "category": "Electronics",
+      "minStock": 5,
+      "createdAt": "2024-01-18T10:00:00.000Z",
+      "updatedAt": "2024-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Monitor Stand",
+      "description": "Adjustable monitor stand with VESA mount",
+      "sku": "STA-001",
+      "price": 39.99,
+      "stock": 3,
+      "supplierId": "1",
+      "category": "Accessories",
+      "minStock": 5,
+      "createdAt": "2024-01-19T10:00:00.000Z",
+      "updatedAt": "2024-01-19T10:00:00.000Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "TechSupply Co.",
+      "email": "contact@techsupply.com",
+      "phone": "+1-555-0101",
+      "address": "123 Tech Street, San Francisco, CA 94102",
+      "createdAt": "2024-01-15T10:00:00.000Z",
+      "updatedAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Global Electronics",
+      "email": "sales@globalelectronics.com",
+      "phone": "+1-555-0102",
+      "address": "456 Electronics Ave, New York, NY 10001",
+      "createdAt": "2024-01-16T10:00:00.000Z",
+      "updatedAt": "2024-01-16T10:00:00.000Z"
+    }
+  ]
+}

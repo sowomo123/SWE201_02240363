@@ -148,25 +148,7 @@ npx expo start
 - Press `a` for Android
 - Press `i` for iOS (requires macOS)
 
-## Project Structure
 
-```
-Practical4/
-├── src/
-│   ├── app/
-│   │   ├── index.tsx          # Main notification demo screen
-│   │   ├── _layout.tsx        # App layout
-│   │   └── explore.tsx        # Explore screen
-│   ├── services/
-│   │   └── notificationService.ts  # Core notification logic
-│   ├── hooks/
-│   │   └── usePushNotifications.ts  # Custom notification hook
-│   ├── components/            # Reusable UI components
-│   └── constants/             # App constants
-├── assets/                    # Images and resources
-├── app.json                   # Expo configuration
-└── package.json              # Dependencies
-```
 
 ## Key Components
 
@@ -220,10 +202,4 @@ Interactive demo interface featuring:
 - Cancel individual notifications using the "Cancel" button
 - Cancel all notifications at once using "Cancel All"
 
-## License
 
-This project is part of the SWE201 course assignments.
-
-## Author
-
-Sonam Wangmo (Student ID: 02240363)
