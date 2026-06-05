@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "OrderTrack",
+    "slug": "ordertrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [],
+    "android": {
+      "package": "com.yourcompany.ordertrack",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.ordertrack",
+      "supportsTablet": true
+    }
+  }
+}
